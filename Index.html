@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flirevo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Flirevo ❤️</h1>
+
+<div id="auth">
+  <input id="email" placeholder="Email">
+  <input id="password" type="password" placeholder="Password">
+  <button onclick="signup()">Sign Up</button>
+  <button onclick="login()">Login</button>
+</div>
+
+<div id="app" style="display:none;">
+  <h2>Welcome</h2>
+  <button onclick="logout()">Logout</button>
+
+  <div id="profiles"></div>
+
+  <h3>Chat</h3>
+  <div id="chat"></div>
+  <input id="message">
+  <button onclick="sendMessage()">Send</button>
+</div>
+
+<script type="module" src="app.js"></script>
+
+</body>
+</html>

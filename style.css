@@ -1,0 +1,19 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: linear-gradient(#ff4b6e, #ff7a5c);
+  color: white;
+}
+
+input, button {
+  margin: 5px;
+  padding: 10px;
+}
+
+#profiles div {
+  background: white;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
